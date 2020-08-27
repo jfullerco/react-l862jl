@@ -1,3 +1,19 @@
 h1, p {
-  font-family: Lato;
+
+  font-family: Lato
+
+}
+
+.ToDoItem {
+
+font-family: Lato;
+font-size: 15
+
+}
+
+.ToDoList {
+
+font-family: Lato;
+font-size: 25
+
 }

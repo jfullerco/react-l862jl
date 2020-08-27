@@ -4,7 +4,10 @@ import ToDo from './ToDo'
 
 function App() {
   return(
-    <div>
+    <div className="ToDoList">
+      <ToDo />
+      <ToDo />
+      <ToDo />
       <ToDo />
     </div>
 

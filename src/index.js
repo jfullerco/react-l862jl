@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 
 import App from './comp/App'
 
-ReactDom.render(
+ReactDOM.render(
   
 <App />, document.getElementById("root")
 
