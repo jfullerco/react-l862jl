@@ -11,8 +11,10 @@ function App() {
       
       />
 
+      
       <ToDo
-      item = {"Item2"}
+      todolist = {{listitem: "Item2"}}
+      
       />
       
     </div>
