@@ -1,11 +1,15 @@
 import React from 'react'
 
+import '../style.css'
 
 
-function ToDo() {
+function ToDo(props) {
   return(
     <div className="ToDoItem">
-      <p><input type="checkbox" />This 1</p>
+      <p><input type="checkbox" />
+        {props.todolist.listitem}
+      </p>
+    
       
     </div>
 

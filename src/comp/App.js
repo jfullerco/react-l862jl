@@ -1,14 +1,20 @@
 import React from 'react'
 
 import ToDo from './ToDo'
+import '../style.css'
 
 function App() {
   return(
     <div className="ToDoList">
-      <ToDo />
-      <ToDo />
-      <ToDo />
-      <ToDo />
+      <ToDo
+      todolist = {{listitem: "Item1"}}
+      
+      />
+
+      <ToDo
+      item = {"Item2"}
+      />
+      
     </div>
 
   )

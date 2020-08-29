@@ -17,3 +17,10 @@ font-family: Lato;
 font-size: 25
 
 }
+
+.ToDoItemChange {
+
+text-decoration: line-through;
+text-decoration-color: gray
+
+}
