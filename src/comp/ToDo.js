@@ -5,9 +5,9 @@ import '../style.css'
 
 function ToDo(props) {
   return(
-    <div className="ToDoItem">
+    <div className="todo-item">
       <p><input type="checkbox" />
-        {props.todolist.listitem}
+        {props.item.itemToDo}
       </p>
     
       

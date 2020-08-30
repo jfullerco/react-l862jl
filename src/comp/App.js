@@ -1,21 +1,16 @@
 import React from 'react'
 
 import ToDo from './ToDo'
+import todosData from './todosData'
 import '../style.css'
 
 function App() {
-  return(
-    <div className="ToDoList">
-      <ToDo
-      todolist = {{listitem: "Item1"}}
-      
-      />
 
-      
-      <ToDo
-      todolist = {{listitem: "Item2"}}
-      
-      />
+  const todoItems = todosData.map(item => <ToDo item={item} />)
+
+  return(
+    <div className="todo-list">
+      {todoItems}
       
     </div>
 
