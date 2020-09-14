@@ -20,7 +20,8 @@ handleChange(id) {
       if (todo.id === id) {
           return {
             ...todo,
-            completed: !todo.completed
+            completed: !todo.completed,
+            
           }
       }
     return todo
@@ -39,7 +40,8 @@ handleChange(id) {
     const todoItems = this.state.todos.map(item=> <ToDo 
     key={item.id} 
     item={item} 
-    handleChange={this.handleChange} 
+    handleChange={this.handleChange}
+    
     />)
 
   return(
